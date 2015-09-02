@@ -1,0 +1,134 @@
+body {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+header .bigBanner {
+  background-color: #fff;
+  background-image: url(../images/abstractWall.jpg);
+  background-size: cover;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+aside img {
+  position: absolute;
+  left: 200px;
+  top: -76px;
+}
+aside {
+  background-color: #fff;
+  position: relative;
+  padding-left: 0px;
+  padding-top: 50px;
+  float: left;
+  width: 350px;
+}
+aside .blackText {
+  text-align: left;
+  color: #000;
+  padding-left: 200px;
+  padding-right: 40px;
+}
+aside .greyText {
+  text-align: left;
+  color: grey;
+  padding-left: 200px;
+  padding-right: 40px;
+}
+floater {
+  background-color: #fff;
+  position: fixed;
+  width: 200px;
+  height: 70px;
+  bottom: 20px;
+  right: 12px;
+  box-shadow: 7px 7px 5px #888888;
+}
+floater h6 {
+  margin-top: 14px;
+  margin-bottom: 0px;
+  margin-left: 12px;
+  font-size: 8px;
+}
+floater p {
+  text-align: left;
+  margin-left: 12px;
+  margin-right: 40px;
+  margin-top: 6px;
+  font-size: 10px;
+  line-height: 10px;
+}
+floater a {
+  color: rgb(52, 92, 250);
+  margin: 0px;
+  font-size: 15px;
+  text-decoration: none;
+}
+floater a:hover {
+  color: #000;
+}
+floater a:visited {
+  color: rgb(52, 92, 250);
+}
+main h1 {
+  padding-left: 30px;
+  padding-top: 0px;
+  margin-top: 0px;
+  border-top: 0px;
+}
+main p {
+  text-align: justify;
+  width: 440px;
+  padding-left: 30px;
+}
+main img {
+  padding-left: 30px;
+}
+main {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-left: 5px;
+  margin-left: 350px;
+  margin-bottom: 25px;
+  background-image: url("../images/chromeo.png");
+  background-repeat: no-repeat;
+  background-position: 375px 0px, center;
+}
+main h6 {
+  color: grey;
+  padding-left: 30px;
+}
+footer {
+  position: fixed;
+  height: 20px;
+  bottom: 0;
+  left: 0;
+  color: #635f5f;
+  background-color: #fff;
+  text-align: left;
+  opacity: 1;
+}
+footer p {
+  margin: 0;
+  line-height: 20px;
+  font-size: 12px;
+}
+aside form {
+  padding-left: 200px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.signage {
+  font-size: 12px;
+}
+main .smallerText p {
+  font-size: 12px;
+}
+floater img {
+  position: absolute;
+  right: 15px;
+  bottom: 11px;
+}
